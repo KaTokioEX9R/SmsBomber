@@ -128,7 +128,8 @@ else
 echo -e "\e[4;32m Invalid Input !!! \e[0m"
 echo "Dönmek için Enter Tuþuna Basýnýz"
 read a3
+:set fileformat=unix
 clear
 fi
 done
-:set fileformat=unix
+
