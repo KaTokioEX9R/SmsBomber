@@ -3,20 +3,20 @@ clear
 echo -e "\e[4;31m KaToKioEX9R Productions !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m TBomb \e[0m"
-echo "Devam etmek için Enter tuşuna basın"
+echo "Devam etmek iÃ§in Enter tuÃ¾una basÃ½n"
 read a1
 if [[ -s update.speedx ]];then
-echo "Tüm Gereksinimler Bulundu ...."
+echo "TÃ¼m Gereksinimler Bulundu ...."
 else
-echo 'Gereksinimler Yükleniyor ....'
+echo 'Gereksinimler YÃ¼kleniyor ....'
 echo .
 echo .
 apt install figlet toilet python curl -y
 pip install urllib3 --user
 pip install requests --user
-echo Bu Script KaTokioEX9R Tarafından Yapıldı! >update.speedx
+echo Bu Script KaTokioEX9R TarafÃ½ndan YapÃ½ldÃ½! >update.speedx
 echo Requirements Installed....
-echo Devam Etmek için Enter Tuşuna Basın ...
+echo Devam Etmek iÃ§in Enter TuÃ¾una BasÃ½n ...
 read upd
 fi
 while :
@@ -24,22 +24,22 @@ do
 clear
 echo -e "\e[1;31m"
 figlet TBomb
-echo -e "\e[1;34m Yaratıcı \e[1;32m"
+echo -e "\e[1;34m YaratÃ½cÃ½ \e[1;32m"
 toilet -f mono12 -F border SpeedX
-echo -e "\e[4;34m Bomber KaTokioEX9R Tarafından Yapıldı\e[0m"
-echo -e "\e[1;34m Soru için İletişim!!!\e[0m"
+echo -e "\e[4;34m Bomber KaTokioEX9R TarafÃ½ndan YapÃ½ldÃ½\e[0m"
+echo -e "\e[1;34m Soru iÃ§in ÃletiÃ¾im!!!\e[0m"
 echo -e "\e[1;32m           Mail: KaTokioEX9R@gmail.com \e[0m"
 echo -e "\e[1;32m       Whatsapp: http://bit.do/KaTokioEX9R\e[0m"
-echo -e "\e[4;32m   İnstagram Sayfam :                                                          https://www.instagram.com/gksltnr.10/ \e[0m"
+echo -e "\e[4;32m   Ãnstagram Sayfam :                                                          https://www.instagram.com/gksltnr.10/ \e[0m"
 echo " "
-echo -e "\e[4;31m lÜTFEN Talimatları Okuyunuz!!!\e[0m"
+echo -e "\e[4;31m lÃœTFEN TalimatlarÃ½ Okuyunuz!!!\e[0m"
 echo " "
-echo "Press 1 To  SmS Saldırısı Başlat "
-echo "Press 2 To  Arama Saldırısı Başlat "
-echo "Press 3 To  Güncelle (Works On Linux And Linux Emulators) "
-echo "Press 4 To  Numaranızı Koruyun"
-echo "Press 5 To  Özellikleri Görüntüle"
-echo "Press 6 To  Çıkış "
+echo "Press 1 To  SmS SaldÃ½rÃ½sÃ½ BaÃ¾lat "
+echo "Press 2 To  Arama SaldÃ½rÃ½sÃ½ BaÃ¾lat "
+echo "Press 3 To  GÃ¼ncelle (Works On Linux And Linux Emulators) "
+echo "Press 4 To  NumaranÃ½zÃ½ Koruyun"
+echo "Press 5 To  Ã–zellikleri GÃ¶rÃ¼ntÃ¼le"
+echo "Press 6 To  Ã‡Ã½kÃ½Ã¾ "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -53,7 +53,7 @@ python3 bomber.py call
 elif [ $ch -eq 3 ];then
 clear
 apt install git -y
-echo -e "\e[1;34m Son Dosyalar İniyor..."
+echo -e "\e[1;34m Son Dosyalar Ãniyor..."
 git clone https://github.com/TheSpeedX/TBomb
 if [[ -s TBomb/TBomb.sh ]];then
 cd TBomb
@@ -64,9 +64,9 @@ rm update.speedx >> temp
 rm temp
 chmod +x TBomb.sh
 fi
-echo -e "\e[1;32m TBomb Şimdi Yeniden Başlayacak..."
-echo -e "\e[1;32m Gerekli Tüm Paketler Yüklenecek ..."
-echo -e "\e[1;34m Yeniden Başlatmaya Devam Etmek İçin Enter tuşuna basın..."
+echo -e "\e[1;32m TBomb Ãimdi Yeniden BaÃ¾layacak..."
+echo -e "\e[1;32m Gerekli TÃ¼m Paketler YÃ¼klenecek ..."
+echo -e "\e[1;34m Yeniden BaÃ¾latmaya Devam Etmek ÃÃ§in Enter tuÃ¾una basÃ½n..."
 read a6
 ./TBomb.sh
 exit
@@ -82,12 +82,12 @@ echo -e "\e[1;34mCreated By \e[1;34m"
 toilet -f mono12 -F border KaTokioEX9R
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
-echo "  [+] limitsiz ve Süper Hızlı Saldırı!"
-echo "  [+] Uluslar Arası Saldırı"
-echo "  [+] Arama Saldırısı "
+echo "  [+] limitsiz ve SÃ¼per HÃ½zlÃ½ SaldÃ½rÃ½!"
+echo "  [+] Uluslar ArasÃ½ SaldÃ½rÃ½"
+echo "  [+] Arama SaldÃ½rÃ½sÃ½ "
 echo "  [+] Korunanlar Listesi"
-echo "  [+] Güncellemeler Otomatik Gelecek"
-echo "  [+] Kullanımı Kolay ve Kodlara Görme"
+echo "  [+] GÃ¼ncellemeler Otomatik Gelecek"
+echo "  [+] KullanÃ½mÃ½ Kolay ve Kodlara GÃ¶rme"
 echo -e "\e[1;32m                   Contributors\e[1;33m"
 echo -e "\e[1;33m      [*]  KaTokioEX9R   \e[1;31m"
 echo "         [-] Mail At: KaTokioEX9R@gmail.com"
@@ -95,20 +95,20 @@ echo -e "\e[1;33m      [*]  The Black Hacker KaTokioEX9R  \e[1;31m"
 echo "         [-] Ping At: https://wa.me/905385405693"
 echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
 echo "         [-] Ping At: http://bit.do/GkslTnr10"
-echo -e "\e[1;33m      [*]  KaTokioEX9R (Göksel)   \e[1;31m"
+echo -e "\e[1;33m      [*]  KaTokioEX9R (GÃ¶ksel)   \e[1;31m"
 echo "         [-] Mail At: KaTokioEX9R@gmail.com"
 echo ""
 echo ""
-echo -e "\e[1;31m Bu Script Sadece Eğlence Amaçlı Yazılmıştır.\e[0m"
-echo -e "\e[1;31m Başkalarına Zarar Vermek İçin Kullanmayın.\e[0m"
-echo -e "\e[1;31m Kötüye Kullanımdan Sorumluluk Kabul ETMEM. \e[0m"
-echo -e "\e[1;32m Çalışmazsa, Güncelleme Yaptığınızdan emin olun.\e[0m"
+echo -e "\e[1;31m Bu Script Sadece EÃ°lence AmaÃ§lÃ½ YazÃ½lmÃ½Ã¾tÃ½r.\e[0m"
+echo -e "\e[1;31m BaÃ¾kalarÃ½na Zarar Vermek ÃÃ§in KullanmayÃ½n.\e[0m"
+echo -e "\e[1;31m KÃ¶tÃ¼ye KullanÃ½mdan Sorumluluk Kabul ETMEM. \e[0m"
+echo -e "\e[1;32m Ã‡alÃ½Ã¾mazsa, GÃ¼ncelleme YaptÃ½Ã°Ã½nÃ½zdan emin olun.\e[0m"
 echo  " "
 echo -e "\e[4;31m BU KADAR !!!\e[0m"
-echo -e "\e[1;34m Bana Ulaşmak İçin!!!\e[0m"
+echo -e "\e[1;34m Bana UlaÃ¾mak ÃÃ§in!!!\e[0m"
 echo -e "\e[1;32m           Mail: KaTokioEX9R@gmail.com \e[0m"
 echo -e "\e[1;32m       Whatsapp: https://wa.me/905385405693 \e[0m"
-echo -e "\e[4;32m   İnstagram Sayfam:   http://bit.do/GkslTnr10 \e[0m"
+echo -e "\e[4;32m   Ãnstagram Sayfam:   http://bit.do/GkslTnr10 \e[0m"
 echo "Press Enter To Go Home"
 read a3
 clear
@@ -118,16 +118,17 @@ echo -e "\e[1;31m"
 figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border KaTokioEX9R
-echo -e "\e[1;34m Bana Ulaşmak İçin!!!\e[0m"
+echo -e "\e[1;34m Bana UlaÃ¾mak ÃÃ§in!!!\e[0m"
 echo -e "\e[1;32m           Mail: KaTokioEX9R@gmail.com \e[0m"
 echo -e "\e[1;32m       Whatsapp: https://wa.me/905385405693 \e[0m"
-echo -e "\e[4;32m   İnstagram Sayfam:   http://bit.do/GkslTnr10\e[0m"
+echo -e "\e[4;32m   Ãnstagram Sayfam:   http://bit.do/GkslTnr10\e[0m"
 echo " "
 exit 0
 else
 echo -e "\e[4;32m Invalid Input !!! \e[0m"
-echo "Dönmek için Enter Tuşuna Basınız"
+echo "DÃ¶nmek iÃ§in Enter TuÃ¾una BasÃ½nÃ½z"
 read a3
 clear
 fi
 done
+:set fileformat=unix
